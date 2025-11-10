@@ -32,14 +32,9 @@ How to Run the Project
 
 🖥 Backend (Spring Boot)
 
-1. Clone the repository
+1. Open in Spring Tool Suite (STS) 
 
-git clone https://github.com/your-username/TuneHub.git
-cd TuneHub
-
-2. Open in Spring Tool Suite (STS) 
-
-3. Update application.properties with your MySQL credentials:
+2. Update application.properties with your MySQL credentials:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/tunehub
 spring.datasource.username=root
