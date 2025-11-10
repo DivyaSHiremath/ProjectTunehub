@@ -10,11 +10,11 @@ The application allows users to register, log in, browse, and listen to songs. A
 
 Backend:
 
-Java 17
-Spring Boot
-Spring MVC
-Spring Data JPA
-Spring Security (for authentication)
+Java 17,
+Spring Boot,
+Spring MVC,
+Spring Data JPA,
+Spring Security (for authentication),
 MySQL
 
 Frontend (optional depending on your setup):
@@ -23,10 +23,10 @@ HTML, CSS, Bootstrap, JSP
 OR React JS
 
 Tools Used:
-Spring Tool Suite 
-MySQL Workbench
-Postman (for API testing)
-Maven (dependency management)
+Spring Tool Suite ,
+MySQL Workbench ,
+Postman (for API testing) ,
+Maven (dependency management) 
 
 How to Run the Project
 
@@ -45,6 +45,7 @@ spring.jpa.hibernate.ddl-auto=update
 4. Run the Spring Boot application (TuneHubApplication.java)
 
 5. Access the app at http://localhost:8080
+
 
 
  Project Architecture
