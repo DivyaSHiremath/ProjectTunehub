@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DISPLAY PLAYLIST</title>
+    <link rel=stylesheet type="text/css" th:href="@{/displaylist.css}">
+</head>
+<body>
+    <form th:action="@{/viewplaylist}" method="get">
+        <!-- Your form contents -->
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${playlists}">
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
